@@ -1,0 +1,80 @@
+site_name: AI and LLM Security Agent Systems Interview Prep
+site_description: Learning path for Staff and Principal security-focused AI/LLM agent engineering interviews
+site_url: http://localhost:8000
+repo_name: interview-prep
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Getting Started: GETTING_STARTED.md
+  - Introduction:
+      - Security Learning Path: 00-introduction/01-learning-path.md
+      - Product LLM Agents Track: 00-introduction/02-product-track.md
+      - Platform LLM Agents Track: 00-introduction/03-platform-track.md
+  - Fundamentals:
+      - Security Core Concepts: 01-fundamentals/01-core-concepts.md
+      - Security Key Principles: 01-fundamentals/02-key-principles.md
+  - Intermediate:
+      - Security Building Blocks: 02-intermediate/01-building-blocks.md
+      - Practical Security Applications: 02-intermediate/02-practical-applications.md
+  - Advanced:
+      - Advanced Security Patterns: 03-advanced/01-advanced-patterns.md
+      - Production Security Considerations: 03-advanced/02-production-considerations.md
+  - Reference:
+      - Quick Reference: reference/01-quick-reference.md
+      - Cheatsheet: reference/02-cheatsheet.md
+      - Security Interview Q&A: reference/03-interview-qa.md
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - md_in_html
+  - footnotes
+  - def_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - css/extra.css
+
+extra_javascript:
+  - js/mathjax.js
+  - js/mermaid-init.js
+  - js/theme-toggle.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+
+plugins:
+  - search
