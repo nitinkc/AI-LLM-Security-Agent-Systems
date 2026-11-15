@@ -1,47 +1,84 @@
-# AI and LLM Security Agent Systems Interview Guide
+# Build agents you can trust
 
-You are preparing for a role that combines strong AI intuition with security-minded production agent engineering. This guide helps you show both technical depth and systems ownership during Staff and Principal interviews. It turns a broad job description into a practical learning path focused on clear, measurable outcomes.
+A practical learning lab for **Staff and Principal AI & LLM security systems interviews**. Move from mental models to architecture decisions, then prove your judgment through scenarios and mock interviews.
 
-```mermaid
-flowchart LR
-    F[Fundamentals] --> I[Intermediate]
-    I --> A[Advanced]
-    A --> R[Reference and Mock Q and A]
+[Start learning](GETTING_STARTED.md){ .md-button .md-button--primary }
+[Explore the roadmap](start-here/01-learning-path.md){ .md-button }
 
-    style F fill:#1976d2,color:#fff
-    style I fill:#1976d2,color:#fff
-    style A fill:#ff9800,color:#fff
-    style R fill:#ff9800,color:#fff
-```
+!!! tip "Learn by producing evidence"
+    Each stage ends with an artifact you can explain in an interview: a system sketch, a tool contract, a scenario runbook, or a production readiness review. Read, build, explain, then move on.
 
-## Why This Guide Exists
+## Your learning journey
 
-Candidates often understand prompting and model APIs, but struggle to explain how to turn that into dependable multi-component systems with strong safety controls. Interview loops at this level test architecture trade-offs, risk-aware decision-making, and reliability under real constraints. The pages here are structured to help you answer those concerns with concrete designs and language.
+<div class="grid cards" markdown>
 
-## Learning Map by Difficulty
+- **01 · Understand the foundations**
 
-| Section | Focus | Difficulty |
-|---|---|---|
-| Fundamentals | Agent lifecycle, context handling, and security-aware evaluation loops | 🟢 |
-| Intermediate | Tool orchestration, retrieval patterns, and workflow execution | 🟡 |
-| Advanced | Operating models, security controls, and scaling strategy | 🔴 |
-| Reference | Quick lookup tables, talking points, and interview prompts | 🟢→🔴 |
+    ---
 
-## Quick Navigation
+    Trace the agent lifecycle and connect evaluation, least privilege, and human oversight to real failure modes.
 
-=== "ML or App Engineer Moving to Staff"
-    Start with Fundamentals and map your current feature delivery workflow to the agent loop. Then use Intermediate pages to practice architecture diagrams and trade-off conversations.
+    **Outcome:** an annotated agent loop with explicit trust boundaries.
 
-=== "Product LLM Agents Track"
-    Follow a path that emphasizes user experience quality, evaluation strategy, and iteration velocity. Start at [Product LLM Agents Track](00-introduction/02-product-track.md), then move through Fundamentals and Practical Applications.
+    [Begin foundations](agent-concepts/01-core-concepts.md)
 
-=== "Platform LLM Agents Track"
-    Follow a path that emphasizes orchestration, reliability, safety controls, and operations at scale. Start at [Platform LLM Agents Track](00-introduction/03-platform-track.md), then focus on Building Blocks and Advanced sections.
+- **02 · Build and practice**
 
-=== "Principal Candidate"
-    Skim Fundamentals, then focus on Advanced and Reference sections. Prioritize operating model, failure recovery, metrics design, and organization-wide rollout plans.
+    ---
 
-=== "Interview Week Sprint"
-    Use the Cheatsheet and Interview Q and A first. Return to Fundamentals only for weak areas you discover while practicing mock answers.
+    Assemble retrieval, tool execution, and workflow contracts. Rehearse how the system behaves when a dependency fails.
+
+    **Outcome:** an architecture sketch and a scenario runbook.
+
+    [Explore building blocks](architecture-and-workflows/01-building-blocks.md)
+
+- **03 · Operate at scale**
+
+    ---
+
+    Make governance, rollout gates, observability, and recovery part of the design rather than an afterthought.
+
+    **Outcome:** a production readiness review with rollback triggers.
+
+    [Study advanced patterns](production-operations/01-advanced-patterns.md)
+
+- **04 · Defend your decisions**
+
+    ---
+
+    Turn your artifacts into concise answers. Practice stating constraints, comparing alternatives, and measuring success.
+
+    **Outcome:** a rehearsed system design narrative.
+
+    [Practice interview questions](interview-toolkit/03-interview-qa.md)
+
+</div>
+
+## Choose your starting point
+
+=== "New to agent systems"
+
+    Start with [How to use this guide](GETTING_STARTED.md), then follow the [learning roadmap](start-here/01-learning-path.md) in order. Build the shared foundations before specializing.
+
+=== "Product focus"
+
+    Use the [Product agents track](start-here/02-product-track.md) to emphasize user outcomes, evaluation coverage, safe fallbacks, and launch decisions.
+
+=== "Platform focus"
+
+    Use the [Platform agents track](start-here/03-platform-track.md) to emphasize orchestration, isolation, policy enforcement, reliability, and operating cost.
+
+=== "Interview week"
+
+    Start with the [answer cheatsheet](interview-toolkit/02-cheatsheet.md), attempt the [mock questions](interview-toolkit/03-interview-qa.md) aloud, and revisit only the topics where your explanation lacks evidence.
+
+## Keep these close
+
+| Need | Go to |
+|---|---|
+| A sequence with concrete completion goals | [Learning roadmap](start-here/01-learning-path.md) |
+| A quick definition or architecture refresher | [Concept reference](interview-toolkit/01-quick-reference.md) |
+| A concise structure for an answer | [Answer cheatsheet](interview-toolkit/02-cheatsheet.md) |
+| A scenario to rehearse with a peer | [Practical drills](architecture-and-workflows/02-practical-applications.md) |
 
 --8<-- "_abbreviations.md"

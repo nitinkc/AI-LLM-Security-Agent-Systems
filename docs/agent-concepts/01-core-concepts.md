@@ -67,4 +67,14 @@ If one workflow has $P_s=0.7$, $I_u=9$, and $C_e=0.8$, then $R=5.04$. Compare th
 ??? question "How do you prevent an agent from causing damage during testing?"
   Enforce least-privilege tool permissions, deny-by-default action policies, and HITL approval gates for risky write operations. Add replayable logs and traces so every high-impact action can be reviewed.
 
+## Practice checkpoint
+
+Sketch the read-only triage assistant from the [roadmap](../start-here/01-learning-path.md). Mark where user intent enters, where retrieved evidence enters, and where a proposed tool call is authorized.
+
+- [ ] I can distinguish retrieved content from trusted instructions.
+- [ ] I can name an owner and a measurable success condition for each phase.
+- [ ] I can explain why model confidence alone cannot authorize an action.
+
+**Next:** [Safety and evaluation principles](02-key-principles.md).
+
 --8<-- "_abbreviations.md"

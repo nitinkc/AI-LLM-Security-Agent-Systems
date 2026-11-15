@@ -22,6 +22,16 @@ This guide is designed to mirror the real demands of a Staff or Principal AI and
 | How do you keep autonomous systems debuggable? | Observability patterns, failure recovery, and operator controls. |
 | How do you align with security, product, platform, and engineering teams? | Ownership models, handoff contracts, and prioritization cadences. |
 
+## A repeatable study session
+
+1. **Read:** identify the problem, the trust boundaries, and the main trade-off.
+2. **Build:** write or sketch the artifact named in the [roadmap](start-here/01-learning-path.md#stage-checkpoints).
+3. **Explain:** give a two-minute answer without looking at the page.
+4. **Check:** compare your explanation with the lesson prompts and record one gap to revisit.
+
+!!! note "Progress is demonstrated, not just read"
+    The task lists are self-review prompts, not saved course progress. Keep your artifacts and notes locally. Quiz answers are stored in your browser and are not a certification of readiness.
+
 ## Recommended Reading Path
 
 ```mermaid
@@ -44,12 +54,14 @@ flowchart TB
     style R1 fill:#1976d2,color:#fff
 ```
 
+Follow the [core concepts](agent-concepts/01-core-concepts.md), [key principles](agent-concepts/02-key-principles.md), [building blocks](architecture-and-workflows/01-building-blocks.md), [practical drills](architecture-and-workflows/02-practical-applications.md), [advanced patterns](production-operations/01-advanced-patterns.md), and [production considerations](production-operations/02-production-considerations.md) in order.
+
 ## Choose a Track
 
 | Track | Best For | Start Here |
 |---|---|---|
-| Product LLM Agents | Engineers focused on user-facing quality, iteration speed, and feature outcomes. | [Product LLM Agents Track](00-introduction/02-product-track.md) |
-| Platform LLM Agents | Engineers focused on orchestration, reliability, guardrails, and operational scale. | [Platform LLM Agents Track](00-introduction/03-platform-track.md) |
+| Product LLM Agents | Engineers focused on user-facing quality, iteration speed, and feature outcomes. | [Product LLM Agents Track](start-here/02-product-track.md) |
+| Platform LLM Agents | Engineers focused on orchestration, reliability, guardrails, and operational scale. | [Platform LLM Agents Track](start-here/03-platform-track.md) |
 
 ## Tips for Best Results
 

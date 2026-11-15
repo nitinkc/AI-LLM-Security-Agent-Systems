@@ -68,4 +68,14 @@ $$
 ??? question "What is your preferred rollout strategy for a new agent capability?"
     Start with shadow execution, then canary by low-criticality user segments with strict rollback triggers. Promote only after stable eval pass rates, clean alerting signals, and no unsafe action regressions.
 
+## Practice checkpoint
+
+Propose a staged rollout for the triage assistant. Compare a single-agent design with a specialist-agent design before choosing one. Define the evidence needed to leave shadow mode and the signal that stops a canary.
+
+- [ ] I can justify added coordination complexity rather than assuming more agents are better.
+- [ ] I can name who owns approval, rollout, and emergency suspension.
+- [ ] I can describe how policy remains enforced when an agent or dependency fails.
+
+**Next:** [Production readiness and operations](02-production-considerations.md).
+
 --8<-- "_abbreviations.md"

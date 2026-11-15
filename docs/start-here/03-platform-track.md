@@ -25,10 +25,10 @@ flowchart TB
 
 | Stage | Primary Skill | What Good Looks Like |
 |---|---|---|
-| Fundamentals | Define safe execution boundaries and ownership | You can explain who approves what, and why. |
-| Intermediate | Build robust orchestration and event contracts | You can explain retries, dead-letter handling, and traceability. |
-| Advanced | Run production operations with SLOs and recovery playbooks | You can describe failure modes and containment strategy. |
-| Reference | Communicate architecture under pressure | You can defend trade-offs with reliability and cost metrics. |
+| [Agent concepts](../agent-concepts/01-core-concepts.md) | Define safe execution boundaries and ownership | You can explain who approves what, and why. |
+| [Build & practice](../architecture-and-workflows/01-building-blocks.md) | Build robust orchestration and event contracts | You can explain retries, dead-letter handling, and traceability. |
+| [Operate at scale](../production-operations/02-production-considerations.md) | Run production operations with SLOs and recovery playbooks | You can describe failure modes and containment strategy. |
+| [Interview toolkit](../interview-toolkit/03-interview-qa.md) | Communicate architecture under pressure | You can defend trade-offs with reliability and cost metrics. |
 
 ## Reliability-Cost Efficiency Ratio
 

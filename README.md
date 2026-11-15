@@ -8,10 +8,11 @@ It maps role expectations to a practical study path across model behavior, secur
 
 1. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   uv venv
+   uv pip install -r requirements.txt
    ```
 2. Start the docs server:
    ```bash
-   mkdocs serve
+   uv run mkdocs serve
    ```
 3. Open the local URL shown in the terminal.

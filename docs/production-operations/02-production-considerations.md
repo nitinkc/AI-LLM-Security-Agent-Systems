@@ -72,4 +72,20 @@ This ratio should be paired with a volume metric. A high health ratio on a tiny 
 ??? question "What is your escalation model when a policy bypass is detected?"
     Immediately pause the affected action class, preserve evidence, and invoke incident response with predefined owners. As a containment step, disable implicated credentials and quarantine affected workflows in a restricted execution lane, then resume only after root cause, control patch, and targeted regression eval pass.
 
+## Practice checkpoint
+
+Present a production readiness review for the triage assistant. Include one quality metric, one safety invariant, one recovery objective, alert ownership, and a tested rollback procedure. Treat the example SLO numbers above as discussion starters, not universal requirements.
+
+<quiz>
+A canary has a high task-success rate, but an unauthorized action is detected. What should happen next?
+
+- [ ] Expand the canary because the aggregate success rate is high
+- [ ] Increase the success-rate target and continue the rollout
+- [x] Pause the affected action class, preserve evidence, and invoke the incident process
+
+Aggregate quality cannot cancel an authorization failure. Contain the affected capability and require targeted regression evidence before resuming.
+</quiz>
+
+**Next:** use the [concept reference](../interview-toolkit/01-quick-reference.md) and [answer cheatsheet](../interview-toolkit/02-cheatsheet.md), then rehearse the [mock interview questions](../interview-toolkit/03-interview-qa.md).
+
 --8<-- "_abbreviations.md"

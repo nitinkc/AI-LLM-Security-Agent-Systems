@@ -25,10 +25,10 @@ flowchart TB
 
 | Stage | Primary Skill | What Good Looks Like |
 |---|---|---|
-| Fundamentals | Translate user intent into measurable agent tasks | You can define success criteria before implementation starts. |
-| Intermediate | Build workflow scenarios and quality runbooks | You can explain fallback behavior and evidence packaging. |
-| Advanced | Operate safely with continuous eval gates | You can describe rollout strategy and rollback triggers. |
-| Reference | Communicate trade-offs clearly in interviews | You can answer design questions with concrete metrics. |
+| [Agent concepts](../agent-concepts/01-core-concepts.md) | Translate user intent into measurable agent tasks | You can define success criteria before implementation starts. |
+| [Build & practice](../architecture-and-workflows/02-practical-applications.md) | Build workflow scenarios and quality runbooks | You can explain fallback behavior and evidence packaging. |
+| [Operate at scale](../production-operations/02-production-considerations.md) | Operate safely with continuous eval gates | You can describe rollout strategy and rollback triggers. |
+| [Interview toolkit](../interview-toolkit/03-interview-qa.md) | Communicate trade-offs clearly in interviews | You can answer design questions with concrete metrics. |
 
 ## Product Quality Score
 

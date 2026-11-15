@@ -1,4 +1,7 @@
-mkdocs>=1.5.0
-mkdocs-material>=9.5.0
-pymdown-extensions>=10.8
-Markdown>=3.6
+mkdocs>=1.5.0,<2
+mkdocs-material>=9.5.0,<10
+pymdown-extensions>=10.8,<11
+Markdown>=3.6,<4
+mkdocs-quiz==1.7.1
+mkdocs-mermaid2-plugin==1.2.3
+mkdocs-glightbox==0.5.3

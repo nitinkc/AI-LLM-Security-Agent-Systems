@@ -72,4 +72,13 @@ This framing helps you explain why a smaller number of high-confidence improveme
 ??? question "How do you decide when to stop an autonomous drill run?"
     Define stop conditions before execution: policy violation, confidence collapse, or evidence sufficiency reached. This prevents drift into unnecessary risk while preserving useful results.
 
+## Practice checkpoint
+
+Run a tabletop exercise: the triage assistant's finding lookup times out after returning a partial result. Write the user-facing response, the retry decision, and the evidence an operator receives. Use synthetic data; do not execute changes against live systems.
+
+??? success "Review your runbook"
+    A strong answer labels the result incomplete, avoids inventing missing evidence, bounds retries, and provides an escalation path. It distinguishes a dependency outage from a denied action and preserves the run identifier for investigation.
+
+**Next:** [Governance and advanced patterns](../production-operations/01-advanced-patterns.md).
+
 --8<-- "_abbreviations.md"

@@ -1,80 +1,102 @@
-site_name: AI and LLM Security Agent Systems Interview Prep
-site_description: Learning path for Staff and Principal security-focused AI/LLM agent engineering interviews
+site_name: AI & LLM Security Lab
+site_description: A guided learning journey for Staff and Principal AI and LLM security agent systems interviews
 site_url: http://localhost:8000
 repo_name: interview-prep
 
 theme:
-  name: material
-  features:
-    - navigation.instant
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - content.code.copy
-    - search.highlight
-  palette:
-    - scheme: default
-      primary: blue
-      accent: orange
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: blue
-      accent: orange
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
-nav:
-  - Home: index.md
-  - Getting Started: GETTING_STARTED.md
-  - Introduction:
-      - Security Learning Path: 00-introduction/01-learning-path.md
-      - Product LLM Agents Track: 00-introduction/02-product-track.md
-      - Platform LLM Agents Track: 00-introduction/03-platform-track.md
-  - Fundamentals:
-      - Security Core Concepts: 01-fundamentals/01-core-concepts.md
-      - Security Key Principles: 01-fundamentals/02-key-principles.md
-  - Intermediate:
-      - Security Building Blocks: 02-intermediate/01-building-blocks.md
-      - Practical Security Applications: 02-intermediate/02-practical-applications.md
-  - Advanced:
-      - Advanced Security Patterns: 03-advanced/01-advanced-patterns.md
-      - Production Security Considerations: 03-advanced/02-production-considerations.md
-  - Reference:
-      - Quick Reference: reference/01-quick-reference.md
-      - Cheatsheet: reference/02-cheatsheet.md
-      - Security Interview Q&A: reference/03-interview-qa.md
-
-markdown_extensions:
-  - abbr
-  - attr_list
-  - md_in_html
-  - footnotes
-  - def_list
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
-
-extra_css:
-  - css/extra.css
-
-extra_javascript:
-  - js/mathjax.js
-  - js/mermaid-init.js
-  - js/theme-toggle.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+    name: material
+    features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.sections
+        - navigation.expand
+        - navigation.path
+        - navigation.top
+        - navigation.footer
+        - search.suggest
+        - search.highlight
+        - search.share
+        - content.code.copy
+        - content.code.annotate
+        - content.tabs.link
+        - content.tooltips
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: brown
+          accent: blue
+          toggle:
+              icon: material/weather-night
+              name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: brown
+          accent: blue
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to light mode
 
 plugins:
-  - search
+    - search:
+          lang: en
+    - mkdocs_quiz
+    - mermaid2
+    - glightbox
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.highlight:
+          anchor_linenums: true
+          use_pygments: true
+          guess_lang: true
+          line_spans: __span
+          pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.superfences:
+          custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - toc:
+          permalink: true
+          title: On this page
+    - abbr
+    - attr_list
+    - md_in_html
+    - pymdownx.snippets:
+          base_path: docs
+    - tables
+    - footnotes
+    - def_list
+    - pymdownx.arithmatex:
+          generic: true
+
+nav:
+    - Start here:
+          - Learning hub: index.md
+          - How to use this guide: GETTING_STARTED.md
+          - Learning roadmap: start-here/01-learning-path.md
+          - Choose your focus:
+                - Product agents: start-here/02-product-track.md
+                - Platform agents: start-here/03-platform-track.md
+    - Agent concepts:
+          - Agent lifecycle & core concepts: agent-concepts/01-core-concepts.md
+          - Safety & evaluation principles: agent-concepts/02-key-principles.md
+    - Architecture & workflows:
+          - Architecture & building blocks: architecture-and-workflows/01-building-blocks.md
+          - Scenarios & practical drills: architecture-and-workflows/02-practical-applications.md
+    - Production operations:
+          - Governance & advanced patterns: production-operations/01-advanced-patterns.md
+          - Production readiness & operations: production-operations/02-production-considerations.md
+    - Interview toolkit:
+          - Concept reference: interview-toolkit/01-quick-reference.md
+          - Answer cheatsheet: interview-toolkit/02-cheatsheet.md
+          - Mock interview questions: interview-toolkit/03-interview-qa.md

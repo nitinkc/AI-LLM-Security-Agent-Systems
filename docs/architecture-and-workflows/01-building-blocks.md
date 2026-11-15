@@ -96,4 +96,14 @@ If five high-tier workflows are skipped, raw coverage can still look healthy whi
 ??? question "How would you explain data quality requirements for this platform?"
   I require typed events for task scope, quality evidence, and policy decisions, then reject incomplete records at ingestion. That protects downstream triage from silent ambiguity and keeps audit trails consistent.
 
+## Practice checkpoint
+
+Write a contract for the triage assistant's read-only finding lookup. Include validated inputs, caller scope, output provenance, timeout behavior, and the event recorded on denial.
+
+- [ ] I can show where authorization is checked independently of the model.
+- [ ] I can distinguish retryable dependency failures from policy denials.
+- [ ] I can trace a single run across retrieval, policy, and evaluation events.
+
+**Next:** [Scenarios and practical drills](02-practical-applications.md).
+
 --8<-- "_abbreviations.md"

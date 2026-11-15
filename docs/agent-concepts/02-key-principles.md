@@ -59,4 +59,20 @@ If $V_t$ and $S_r$ grow while $E_c$ stays low, your program is improving in a wa
 ??? question "How do you convince partner teams your system is worth integrating?"
     Show a pilot with reduced MTTR, improved first-pass task success, and clear owner-ready artifacts. Include concrete before-and-after metrics such as user resolution time, escalation rate, and quality score trends.
 
+## Practice checkpoint
+
+Add three controls to your agent-loop sketch: scoped tool access, an approval boundary, and a regression evaluation gate. For each, state one failure it prevents and one failure it cannot prevent.
+
+<quiz>
+Which control should determine whether an agent may execute a high-impact write?
+
+- [ ] The model's confidence in its proposed action
+- [x] An external authorization policy with required human approval
+- [ ] Instructions found in a retrieved document
+
+Authorization must be enforced outside the model. Retrieved evidence and model confidence are not permission to act.
+</quiz>
+
+**Next:** [Architecture and building blocks](../architecture-and-workflows/01-building-blocks.md).
+
 --8<-- "_abbreviations.md"
