@@ -15,22 +15,8 @@ This page is designed for fast recall before interviews and mock system design s
 
 ## Architecture Memory Map
 
-```mermaid
-mindmap
-  root((LLM Agent System))
-    Framing
-      Task inventory
-      Constraint mapping
-    Execution
-      Retrieval checks
-      Tool calls
-    Iteration
-      Ownership routing
-      Improvement verification
-    Safety
-      Policy engine
-      HITL controls
-```
+![Interview Architecture Memory Map](../assets/diagrams/agent-system-mindmap-light.svg#only-light)
+![Interview Architecture Memory Map](../assets/diagrams/agent-system-mindmap-dark.svg#only-dark)
 
 ## Interview Signals
 

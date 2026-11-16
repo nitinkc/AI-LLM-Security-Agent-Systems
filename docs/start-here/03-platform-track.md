@@ -4,22 +4,8 @@ This track is for engineers who design and operate shared AI infrastructure in s
 
 ## Platform-Focused Progression
 
-```mermaid
-flowchart TB
-    S1[Design control plane and tool boundaries]
-    S2[Implement execution lanes and policy checks]
-    S3[Instrument traces, metrics, and alerts]
-    S4[Deploy with canary and rollback controls]
-    S5[Scale with reliability and cost guardrails]
-
-    S1 --> S2 --> S3 --> S4 --> S5
-
-    style S1 fill:#1976d2,color:#fff
-    style S2 fill:#1976d2,color:#fff
-    style S3 fill:#ff9800,color:#fff
-    style S4 fill:#ff9800,color:#fff
-    style S5 fill:#1976d2,color:#fff
-```
+![Platform LLM Agent Infrastructure Pipeline](../assets/diagrams/platform-agent-track-light.svg#only-light)
+![Platform LLM Agent Infrastructure Pipeline](../assets/diagrams/platform-agent-track-dark.svg#only-dark)
 
 ## Recommended Study Sequence
 

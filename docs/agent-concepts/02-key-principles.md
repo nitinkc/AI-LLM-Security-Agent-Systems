@@ -4,22 +4,8 @@ Great demos often fail in production because they optimize for impressive behavi
 
 ## Principle Stack
 
-```mermaid
-flowchart TB
-    P1[Impact First]
-    P2[Safe by Default]
-    P3[Human Steering at Risk Boundaries]
-    P4[Observable and Recoverable]
-    P5[Continuously Evaluated]
-
-    P1 --> P2 --> P3 --> P4 --> P5
-
-    style P1 fill:#1976d2,color:#fff
-    style P2 fill:#1976d2,color:#fff
-    style P3 fill:#1976d2,color:#fff
-    style P4 fill:#ff9800,color:#fff
-    style P5 fill:#ff9800,color:#fff
-```
+![Defense-in-Depth Principle Stack](../assets/diagrams/key-principles-light.svg#only-light)
+![Defense-in-Depth Principle Stack](../assets/diagrams/key-principles-dark.svg#only-dark)
 
 ## What Each Principle Looks Like in Practice
 

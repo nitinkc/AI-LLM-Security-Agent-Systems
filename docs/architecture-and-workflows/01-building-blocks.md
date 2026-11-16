@@ -4,43 +4,8 @@ This section moves from concepts into architecture components you would likely o
 
 ## Platform Component Map
 
-```mermaid
-flowchart LR
-    subgraph ControlPlane[Control Plane]
-      CP1[Task Scheduler]
-      CP2[Policy and Routing Engine]
-      CP3[Evaluation Service]
-    end
-
-    subgraph DataPlane[Execution Plane]
-      DP1[Retrieval Agent]
-      DP2[Tool-Use Agent]
-      DP3[Conversation Agent]
-    end
-
-    subgraph Workflow[Remediation Workflow]
-      WF1[Ownership Resolver]
-      WF2[Iteration and Verification Loop]
-    end
-
-    CP1 --> DP1
-    CP1 --> DP2
-    CP1 --> DP3
-    DP1 --> WF1
-    DP2 --> WF1
-    DP3 --> WF1
-    CP2 --> DP1
-    CP2 --> DP2
-    CP2 --> DP3
-    WF2 --> CP3
-
-    style CP1 fill:#1976d2,color:#fff
-    style CP2 fill:#1976d2,color:#fff
-    style CP3 fill:#1976d2,color:#fff
-    style DP1 fill:#ff9800,color:#fff
-    style DP2 fill:#ff9800,color:#fff
-    style DP3 fill:#ff9800,color:#fff
-```
+![Platform Component Map](../assets/diagrams/building-blocks-light.svg#only-light)
+![Platform Component Map](../assets/diagrams/building-blocks-dark.svg#only-dark)
 
 ## Component Responsibilities
 

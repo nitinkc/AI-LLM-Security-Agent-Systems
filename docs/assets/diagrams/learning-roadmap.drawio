@@ -1,0 +1,42 @@
+<mxfile host="Electron">
+  <diagram id="learning-roadmap" name="Progression Model">
+    <mxGraphModel dx="1000" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="360" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="g1" value="Stage 1 · Fundamentals" style="swimlane;startSize=32;rounded=1;arcSize=5;html=1;fillColor=light-dark(#dcfce7,#064e3b);swimlaneFillColor=light-dark(#f8fafc,#181c26);strokeColor=light-dark(#15803d,#34d399);strokeWidth=2;fontColor=light-dark(#052e16,#ecfdf5);fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="280" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="a" value="&lt;b&gt;1. Problem Framing &amp;amp; Intent&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Separate untrusted data from authorized instructions&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#dbeafe,#1d4ed8);strokeColor=light-dark(#1d4ed8,#93c5fd);strokeWidth=2;fontColor=light-dark(#0f172a,#ffffff);fontSize=12;" vertex="1" parent="g1">
+          <mxGeometry x="20" y="52" width="240" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="b" value="&lt;b&gt;2. Prompt-to-Eval Loop&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Measure task success before expanding autonomy&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#dbeafe,#1d4ed8);strokeColor=light-dark(#1d4ed8,#93c5fd);strokeWidth=2;fontColor=light-dark(#0f172a,#ffffff);fontSize=12;" vertex="1" parent="g1">
+          <mxGeometry x="20" y="164" width="240" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2" value="Stage 2 · Intermediate" style="swimlane;startSize=32;rounded=1;arcSize=5;html=1;fillColor=light-dark(#fef3c7,#78350f);swimlaneFillColor=light-dark(#f8fafc,#181c26);strokeColor=light-dark(#b45309,#fbbf24);strokeWidth=2;fontColor=light-dark(#451a03,#fffbeb);fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="280" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="c" value="&lt;b&gt;3. Specialized Tool Agents&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Typed schemas, retries &amp;amp; least-privilege credentials&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#fef3c7,#b45309);strokeColor=light-dark(#b45309,#fcd34d);strokeWidth=2;fontColor=light-dark(#451a03,#ffffff);fontSize=12;" vertex="1" parent="g2">
+          <mxGeometry x="20" y="52" width="240" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="d" value="&lt;b&gt;4. Context, Memory &amp;amp; Ownership&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Route validated evidence to accountable service owners&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#fef3c7,#b45309);strokeColor=light-dark(#b45309,#fcd34d);strokeWidth=2;fontColor=light-dark(#451a03,#ffffff);fontSize=12;" vertex="1" parent="g2">
+          <mxGeometry x="20" y="164" width="240" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="g3" value="Stage 3 · Advanced" style="swimlane;startSize=32;rounded=1;arcSize=5;html=1;fillColor=light-dark(#fee2e2,#7f1d1d);swimlaneFillColor=light-dark(#f8fafc,#181c26);strokeColor=light-dark(#b91c1c,#f87171);strokeWidth=2;fontColor=light-dark(#450a0a,#fef2f2);fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="20" width="280" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="e" value="&lt;b&gt;5. Continuous Production Ops&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Canary rollouts, incident triage &amp;amp; rollback gates&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#fee2e2,#be123c);strokeColor=light-dark(#b91c1c,#fda4af);strokeWidth=2;fontColor=light-dark(#450a0a,#ffffff);fontSize=12;" vertex="1" parent="g3">
+          <mxGeometry x="20" y="52" width="240" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="f" value="&lt;b&gt;6. Capability, Safety &amp;amp; Cost Drift&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Longitudinal evals &amp;amp; SLO efficiency governance&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#f3e8ff,#6d28d9);strokeColor=light-dark(#7e22ce,#d8b4fe);strokeWidth=2;fontColor=light-dark(#2e1065,#ffffff);fontSize=12;" vertex="1" parent="g3">
+          <mxGeometry x="20" y="164" width="240" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;" edge="1" parent="g1" source="a" target="b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="b" target="c"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;" edge="1" parent="g2" source="c" target="d"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="d" target="e"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;" edge="1" parent="g3" source="e" target="f"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -18,32 +18,8 @@ Use the same running example throughout: **a read-only security triage assistant
 
 ## Progression Model
 
-```mermaid
-flowchart TB
-    subgraph Stage1[Fundamentals]
-      A[Define problem framing and user intent]
-      B[Design prompt to evaluation loop]
-    end
-
-    subgraph Stage2[Intermediate]
-      C[Implement specialized tool-using agents]
-      D[Integrate context, memory, and ownership metadata]
-    end
-
-    subgraph Stage3[Advanced]
-      E[Run continuous production operations]
-      F[Evaluate capability, safety, and cost drift]
-    end
-
-    A --> B --> C --> D --> E --> F
-
-    style A fill:#1976d2,color:#fff
-    style B fill:#1976d2,color:#fff
-    style C fill:#1976d2,color:#fff
-    style D fill:#ff9800,color:#fff
-    style E fill:#ff9800,color:#fff
-    style F fill:#ff9800,color:#fff
-```
+![Security Learning Path Progression Model](../assets/diagrams/learning-roadmap-light.svg#only-light)
+![Security Learning Path Progression Model](../assets/diagrams/learning-roadmap-dark.svg#only-dark)
 
 ## Weekly Interview Prep Cadence
 

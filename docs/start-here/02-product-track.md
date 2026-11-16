@@ -4,22 +4,8 @@ This track is for engineers who want to build AI features that users trust and a
 
 ## Product-Focused Progression
 
-```mermaid
-flowchart TB
-    P1[Define user jobs and failure boundaries]
-    P2[Design prompt, retrieval, and tool contracts]
-    P3[Run evals tied to user outcomes]
-    P4[Ship with guardrails and HITL gates]
-    P5[Iterate from feedback and incident signals]
-
-    P1 --> P2 --> P3 --> P4 --> P5
-
-    style P1 fill:#1976d2,color:#fff
-    style P2 fill:#1976d2,color:#fff
-    style P3 fill:#ff9800,color:#fff
-    style P4 fill:#ff9800,color:#fff
-    style P5 fill:#1976d2,color:#fff
-```
+![Product LLM Agent Delivery Pipeline](../assets/diagrams/product-agent-track-light.svg#only-light)
+![Product LLM Agent Delivery Pipeline](../assets/diagrams/product-agent-track-dark.svg#only-dark)
 
 ## Recommended Study Sequence
 

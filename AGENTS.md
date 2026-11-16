@@ -7,3 +7,4 @@
 - Keep navigation.instant disabled for local live reload. Material handles palette preferences; mermaid2 handles diagrams. Avoid reintroducing duplicate theme or Mermaid initializers.
 - `_abbreviations.md` is shared through pymdownx.snippets, not a navigation destination.
 - The MathJax initializer was removed outside the site refresh and the user explicitly requested leaving that deletion untouched. Existing equation rendering needs browser verification and may require a future initializer fix.
+- Editable draw.io diagram sources live in `docs/assets/diagrams/*.drawio` using `adaptiveColors="auto"` and explicit `light-dark(...)` color tokens, exported to `*-light.svg` (`--theme light --embed-svg-fonts false -b 12`) and `*-dark.svg` (`--theme dark --embed-svg-fonts false -b 12`) for MkDocs Material `#only-light` / `#only-dark` switching.

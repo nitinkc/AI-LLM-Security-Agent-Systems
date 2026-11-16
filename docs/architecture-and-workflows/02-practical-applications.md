@@ -4,19 +4,8 @@ Interviewers often shift from theory to operational scenarios quickly. The stron
 
 ## Scenario Flow
 
-```mermaid
-flowchart TB
-    S1[Select high-value workflow set] --> S2[Run constrained agent execution]
-    S2 --> S3[Validate output quality]
-    S3 --> S4[Create owner-ready recommendations]
-    S4 --> S5[Verify improvements and close loop]
-
-    style S1 fill:#1976d2,color:#fff
-    style S2 fill:#1976d2,color:#fff
-    style S3 fill:#ff9800,color:#fff
-    style S4 fill:#ff9800,color:#fff
-    style S5 fill:#1976d2,color:#fff
-```
+![Operational Scenario Runbook Flow](../assets/diagrams/agent-rollout-workflow-light.svg#only-light)
+![Operational Scenario Runbook Flow](../assets/diagrams/agent-rollout-workflow-dark.svg#only-dark)
 
 ## Drill Matrix
 

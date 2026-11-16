@@ -1,0 +1,53 @@
+<mxfile host="Electron">
+  <diagram id="getting-started" name="Recommended Reading Path">
+    <mxGraphModel dx="1100" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1060" pageHeight="360" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p1" value="1 · Orientation" style="swimlane;startSize=30;rounded=1;arcSize=5;html=1;fillColor=light-dark(#dcfce7,#064e3b);swimlaneFillColor=light-dark(#f8fafc,#181c26);strokeColor=light-dark(#15803d,#34d399);strokeWidth=2;fontColor=light-dark(#052e16,#ecfdf5);fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="210" height="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="s" value="&lt;b&gt;Start Here&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Roadmap &amp;amp; Product vs. Platform Track&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#dcfce7,#047857);strokeColor=light-dark(#15803d,#6ee7b7);strokeWidth=2;fontColor=light-dark(#052e16,#ffffff);fontSize=13;" vertex="1" parent="p1">
+          <mxGeometry x="20" y="105" width="170" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2" value="2 · Agent Concepts" style="swimlane;startSize=30;rounded=1;arcSize=5;html=1;fillColor=light-dark(#dbeafe,#1e3a8a);swimlaneFillColor=light-dark(#f8fafc,#181c26);strokeColor=light-dark(#1d4ed8,#60a5fa);strokeWidth=2;fontColor=light-dark(#0f172a,#eff6ff);fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="230" height="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="f1" value="&lt;b&gt;Core Concepts&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Agent loop &amp;amp; trust boundaries&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#dbeafe,#1d4ed8);strokeColor=light-dark(#1d4ed8,#93c5fd);strokeWidth=2;fontColor=light-dark(#0f172a,#ffffff);fontSize=13;" vertex="1" parent="p2">
+          <mxGeometry x="25" y="55" width="180" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="f2" value="&lt;b&gt;Key Principles&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Safe-by-default &amp;amp; HITL gates&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#dbeafe,#1d4ed8);strokeColor=light-dark(#1d4ed8,#93c5fd);strokeWidth=2;fontColor=light-dark(#0f172a,#ffffff);fontSize=13;" vertex="1" parent="p2">
+          <mxGeometry x="25" y="175" width="180" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3" value="3 · Architecture &amp; Drills" style="swimlane;startSize=30;rounded=1;arcSize=5;html=1;fillColor=light-dark(#fef3c7,#78350f);swimlaneFillColor=light-dark(#f8fafc,#181c26);strokeColor=light-dark(#b45309,#fbbf24);strokeWidth=2;fontColor=light-dark(#451a03,#fffbeb);fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="230" height="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="i1" value="&lt;b&gt;Building Blocks&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Control vs. execution planes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#fef3c7,#b45309);strokeColor=light-dark(#b45309,#fcd34d);strokeWidth=2;fontColor=light-dark(#451a03,#ffffff);fontSize=13;" vertex="1" parent="p3">
+          <mxGeometry x="25" y="55" width="180" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="i2" value="&lt;b&gt;Practical Applications&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Failure runbooks &amp;amp; scenario drills&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#fef3c7,#b45309);strokeColor=light-dark(#b45309,#fcd34d);strokeWidth=2;fontColor=light-dark(#451a03,#ffffff);fontSize=13;" vertex="1" parent="p3">
+          <mxGeometry x="25" y="175" width="180" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4" value="4 · Scale &amp; Interviews" style="swimlane;startSize=30;rounded=1;arcSize=5;html=1;fillColor=light-dark(#f3e8ff,#4c1d95);swimlaneFillColor=light-dark(#f8fafc,#181c26);strokeColor=light-dark(#7e22ce,#c084fc);strokeWidth=2;fontColor=light-dark(#2e1065,#faf5ff);fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="20" width="230" height="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="a1" value="&lt;b&gt;Advanced Patterns&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Multi-agent governance&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#fee2e2,#be123c);strokeColor=light-dark(#b91c1c,#fda4af);strokeWidth=2;fontColor=light-dark(#450a0a,#ffffff);fontSize=12;" vertex="1" parent="p4">
+          <mxGeometry x="25" y="44" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="a2" value="&lt;b&gt;Production Ops&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;SLOs, triage &amp;amp; safe recovery&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#fee2e2,#be123c);strokeColor=light-dark(#b91c1c,#fda4af);strokeWidth=2;fontColor=light-dark(#450a0a,#ffffff);fontSize=12;" vertex="1" parent="p4">
+          <mxGeometry x="25" y="128" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="r1" value="&lt;b&gt;Reference &amp;amp; Mock Practice&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;Cheatsheets &amp;amp; timed Q&amp;amp;A&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=light-dark(#f3e8ff,#6d28d9);strokeColor=light-dark(#7e22ce,#d8b4fe);strokeWidth=2;fontColor=light-dark(#2e1065,#ffffff);fontSize=12;" vertex="1" parent="p4">
+          <mxGeometry x="25" y="212" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="s" target="f1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;" edge="1" parent="p2" source="f1" target="f2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="f2" target="i1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;" edge="1" parent="p3" source="i1" target="i2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="i2" target="a1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;" edge="1" parent="p4" source="a1" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=light-dark(#334155,#cbd5e1);strokeWidth=2;endArrow=block;" edge="1" parent="p4" source="a2" target="r1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

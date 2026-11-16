@@ -4,32 +4,8 @@ At this level, interviewers want to see that you can reason about model behavior
 
 ## The End-to-End LLM Agent Loop
 
-```mermaid
-flowchart TB
-    subgraph Framing
-      D1[Define user intent and task boundaries]
-      D2[Select context and quality constraints]
-    end
-
-    subgraph Execution
-      V1[Plan steps and choose tools]
-      V2[Execute calls and generate output]
-    end
-
-    subgraph Improvement
-      R1[Evaluate result quality]
-      R2[Iterate prompts, tools, and policies]
-    end
-
-    D1 --> D2 --> V1 --> V2 --> R1 --> R2 --> D1
-
-    style D1 fill:#1976d2,color:#fff
-    style D2 fill:#1976d2,color:#fff
-    style V1 fill:#1976d2,color:#fff
-    style V2 fill:#ff9800,color:#fff
-    style R1 fill:#ff9800,color:#fff
-    style R2 fill:#ff9800,color:#fff
-```
+![End-to-End LLM Agent Loop](../assets/diagrams/agent-lifecycle-light.svg#only-light)
+![End-to-End LLM Agent Loop](../assets/diagrams/agent-lifecycle-dark.svg#only-dark)
 
 ## Framing vs Execution vs Improvement
 

@@ -4,26 +4,8 @@ At the advanced level, you need to present system patterns that remain stable un
 
 ## Multi-Agent Governance Pattern
 
-```mermaid
-flowchart TB
-    O[Orchestrator] --> P[Planner Agent]
-    O --> C[Retrieval Agent]
-    O --> K[Tool-Use Agent]
-    O --> W[Conversation Agent]
-    C --> G[Guardrail Gateway]
-    K --> G
-    W --> G
-    G --> H[Human Approval Queue]
-    G --> R[Remediation Pipeline]
-    R --> E[Eval and Learning Service]
-
-    style O fill:#1976d2,color:#fff
-    style P fill:#1976d2,color:#fff
-    style C fill:#ff9800,color:#fff
-    style K fill:#ff9800,color:#fff
-    style W fill:#ff9800,color:#fff
-    style G fill:#1976d2,color:#fff
-```
+![Multi-Agent Governance and Safety Gateway Architecture](../assets/diagrams/multi-agent-architecture-light.svg#only-light)
+![Multi-Agent Governance and Safety Gateway Architecture](../assets/diagrams/multi-agent-architecture-dark.svg#only-dark)
 
 ## Pattern Selection Guide
 

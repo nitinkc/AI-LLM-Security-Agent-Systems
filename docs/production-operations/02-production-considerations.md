@@ -4,20 +4,8 @@ A production system must keep working even when dependencies fail, models regres
 
 ## Reliability Control Loop
 
-```mermaid
-flowchart LR
-    M[Monitor] --> D[Detect degradation]
-    D --> T[Triaged response]
-    T --> R[Recover safely]
-    R --> V[Validate behavior]
-    V --> M
-
-    style M fill:#1976d2,color:#fff
-    style D fill:#ff9800,color:#fff
-    style T fill:#1976d2,color:#fff
-    style R fill:#ff9800,color:#fff
-    style V fill:#1976d2,color:#fff
-```
+![Production Reliability and Incident Control Loop](../assets/diagrams/production-operations-loop-light.svg#only-light)
+![Production Reliability and Incident Control Loop](../assets/diagrams/production-operations-loop-dark.svg#only-dark)
 
 ## Production Readiness Checklist
 

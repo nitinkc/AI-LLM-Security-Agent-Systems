@@ -34,25 +34,8 @@ This guide is designed to mirror the real demands of a Staff or Principal AI and
 
 ## Recommended Reading Path
 
-```mermaid
-flowchart TB
-    S[Start Here] --> F1[Core Concepts]
-    F1 --> F2[Key Principles]
-    F2 --> I1[Building Blocks]
-    I1 --> I2[Practical Applications]
-    I2 --> A1[Advanced Patterns]
-    A1 --> A2[Production Considerations]
-    A2 --> R1[Reference and Mock Practice]
-
-    style S fill:#1976d2,color:#fff
-    style F1 fill:#1976d2,color:#fff
-    style F2 fill:#1976d2,color:#fff
-    style I1 fill:#ff9800,color:#fff
-    style I2 fill:#ff9800,color:#fff
-    style A1 fill:#ff9800,color:#fff
-    style A2 fill:#ff9800,color:#fff
-    style R1 fill:#1976d2,color:#fff
-```
+![Recommended Reading Path](assets/diagrams/getting-started-path-light.svg#only-light)
+![Recommended Reading Path](assets/diagrams/getting-started-path-dark.svg#only-dark)
 
 Follow the [core concepts](agent-concepts/01-core-concepts.md), [key principles](agent-concepts/02-key-principles.md), [building blocks](architecture-and-workflows/01-building-blocks.md), [practical drills](architecture-and-workflows/02-practical-applications.md), [advanced patterns](production-operations/01-advanced-patterns.md), and [production considerations](production-operations/02-production-considerations.md) in order.
 
